@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project specific
+ShippingDocExtractor/venv/
+ShippingDocExtractor/.env
+ShippingDocExtractor/output/
+ShippingDocExtractor/shipping_data_extracted.json
+ShippingDocExtractor/shipping_data_extracted.xlsx
+
+# Generated files
+shipping_data_extracted.json
+shipping_data_extracted.xlsx
+output/
+
+# Data
+Scans/
+*.pdf
+
+# System
+.DS_Store
+Thumbs.db
