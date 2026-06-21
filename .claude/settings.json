@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.git/**)",
+      "Read(./**/.git/**)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/.env)",
+      "Read(./**/*.zip)",
+      "Read(./**/*.tar.gz)",
+      "Read(./ShippingDocExtractor/venv/**)",
+      "Read(./ShippingDocExtractor/.venv/**)",
+      "Read(./ShippingDocExtractor/output/**)",
+      "Read(./**/__pycache__/**)",
+      "Read(./**/*.pyc)",
+      "Read(./**/.pytest_cache/**)",
+      "Read(./**/.mypy_cache/**)",
+      "Read(./Scans/**)",
+      "Read(./**/*.pdf)",
+      "Read(./**/*.xlsx)"
+    ]
+  }
+}
